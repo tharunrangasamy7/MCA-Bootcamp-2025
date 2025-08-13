@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box1 {
+  width: 900px;
+  height: 70px;
+  background-color: rgb(213, 210, 210);
+  margin-left: 300px;
+  padding: 15px;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+.box2 {
+  display: flex;
+  align-items: center;
+  justify-self: end;
+  padding-right: 30px;
+}
+.box2 a {
+  text-decoration: none;
+  color: cyan;
+  font-weight: 600px;
+  padding: 6px;
+}
+.box2 a.hover {
+  text-decoration: underline;
+  color: rgb(55, 60, 59);
+}
+.one {
+  background-color: yellow;
+  display: inline;
+  margin-top: 20px;
+  margin-left: 80%;
+}
+.two {
+  text-align: center;
+  color: rgb(127, 225, 225);
+  padding-right: 280px;
+}
+.im {
+  margin-left: 300px;
+  width: 50px;
+  height: 50px;
+  margin-top: 30px;
+}
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-left: 280px;
+}
+.img01 {
+  margin: 20px;
+  margin-left: 280px;
+  width: 750px;
+}
+.head {
+  margin-left: 250px;
+}
+li {
+  margin-left: 300px;
+}
+.h2 {
+  margin-left: 270px;
+}
+.cont {
+  padding-bottom: 10px;
+}
+.st01 {
+  background-color: rgb(228, 225, 225);
+  height: 300px;
+  width: 150px;
+  margin-top: 20px;
+}
+.related {
+  background-color: rgb(231, 227, 227);
+  width: 500px;
+  height: 1000px;
+  margin-left: 280px;
+}
+.parts {
+  text-decoration: underline;
+  text-decoration: none;
+  color: cyan;
+  font-weight: 800px;
+  padding: 11px;
+}
+.inst {
+  display: inline;
+}

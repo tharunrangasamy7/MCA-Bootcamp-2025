@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Portfolio</title>
+    <link rel="stylesheet" href="style.css".css" />
+
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">My Portfolio</h1>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <button id="themeToggle" title="Toggle Dark/Light Mode">
+                🌙
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="home">
+      <div class="container">
+        <h2>Hello, I'm <span class="highlight">tharun rangsamy V</span></h2>
+        <p>Web Developer | Designer | Coder</p>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I’m a passionate frontend developer who loves creating responsive and
+          interactive websites.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skill-grid">
+          <div><i class="fab fa-html"></i> HTML</div>
+          <div><i class="fab fa-css-alt"></i> CSS</div>
+          <div><i class="fab fa-js-square"></i> JavaScript</div>
+          <div><i class="fab fa-react"></i> excel</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="filters">
+          <button class="filter-btn" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="design">Design</button>
+        </div>
+        <div class="project-grid">
+          <div class="project-card" data-category="web">
+            <h3>Web App</h3>
+            <p>
+              A modern web application built with HTML, CSS, and JavaScript.
+            </p>
+          </div>
+          <div class="project-card" data-category="design">
+            <h3>UI Design</h3>
+            <p>Interactive and clean design prototype using Figma.</p>
+          </div>
+          <div class="project-card" data-category="web">
+            <h3>Portfolio Site</h3>
+            <p>Responsive portfolio site with dark/light theme toggle.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 tharun rangasamy v All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="javascriot.js"></script>
+  </body>
+</html>
